@@ -70,14 +70,8 @@ disaster-response-classification/
 │   └── README.md                      # Dataset download instructions
 │
 ├── models/
-│   └── README.md                      # Saved model files (not tracked in git)
-│
-├── reports/
-│   ├── Final_Report.pdf               # Complete project report
-│   └── Presentation.pptx              # Video presentation slides
-│
-└── docs/
-    └── figures/                       # Visualization outputs
+  └── README.md                      # Saved model files (not tracked in git)
+
 ```
 
 ---
@@ -310,27 +304,6 @@ Output: 37 Probability Scores
 
 ---
 
-## Requirements Compliance
-
-This project fulfills all AAI-590 Capstone requirements:
-
-### Machine Learning Methods ✓
-- [x] Traditional ML: XGBoost, Logistic Regression (Classifier Chains)
-- [x] Neural Network/Deep Learning: Feed-forward network built from scratch
-- [x] Built using Keras/TensorFlow (not pre-trained)
-
-### Code Repository Requirements ✓
-- [x] Data Cleaning: `01_EDA_Data_Cleaning.ipynb`
-- [x] Exploratory Data Analysis: `01_EDA_Data_Cleaning.ipynb`
-- [x] Model Design/Building: `02_Model_Training.ipynb`
-- [x] Model Training: `02_Model_Training.ipynb`
-- [x] Model Optimization: `03_Model_Optimization.ipynb`
-- [x] Model Analysis: `02_Model_Training.ipynb`, `03_Model_Optimization.ipynb`
-- [x] README file with complete documentation
-- [x] Well-documented code with comments
-
----
-
 ## Future Work
 
 1. **BERT Embeddings**: Replace TF-IDF with fine-tuned DistilBERT for contextual understanding (expected +8-15% F1)
@@ -363,4 +336,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - University of San Diego, Shiley-Marcos School of Engineering
 - Figure Eight for providing the disaster response dataset
-- Course instructors and teaching assistants for guidance
+- Professor Anna Marbut for guidance
